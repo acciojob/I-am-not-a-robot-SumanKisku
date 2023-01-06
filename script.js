@@ -13,6 +13,7 @@ const imgContaner = document.querySelector(".image-container");
 
 // create h3
 const heading = document.createElement("h3");
+heading.setAttribute("id", "h");
 heading.innerText = "Please click on the identicl tiles to verify that you are not a robot";
 main.appendChild(heading);
 
