@@ -5,7 +5,6 @@ let images = [
     `<img src="" alt="" class="img3">`,
     `<img src="" alt="" class="img4">`,
     `<img src="" alt="" class="img5">`,
-    
 ]
 // select elements
 const main = document.querySelector("main");
@@ -30,8 +29,6 @@ main.appendChild(reset);
 // create answer paragraph
 const answer = document.createElement("p");
 answer.setAttribute("id", "para");
-
-let selected = 0;
 
 // render images
 renderImages();
